@@ -1,0 +1,11 @@
+/* styles.css */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    height: 100vh;
+  }
+  
+  .header, .resume, .print {
+    height: 100%; 
+  }
+  
