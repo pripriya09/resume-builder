@@ -1,11 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Skill() {
+const [selectbox,setSelectbox] = useState([])
+
+
+// const optionbox =[]
+
+
   return (
-    <div>
-    <h1>skill</h1>  
-    </div>
-  )
-}
+    <table>
+      <thead>
+        <tr>
+          <th>Select</th>
+          <th>Category</th>
+          <th>Skill</th>
+        </tr>
+      </thead>
+     
+    </table>
+  );
+};
 
 export default Skill
+
+
+
+
+

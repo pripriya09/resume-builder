@@ -24,7 +24,7 @@ function InnerHeader() {
                 </li>
 
                 <li>
-                    <NavLink to="experience">Work Experience</NavLink>
+                    <NavLink to="expreience">Work Experience</NavLink>
                 </li>
             </ul>
         </div>
